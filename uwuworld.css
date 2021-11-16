@@ -1,0 +1,1325 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #ffd5ec;
+  padding: 0px;
+
+
+}
+
+
+#start1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 300px;
+  left: 300px;
+  z-index: -100;
+  animation-name: star1;
+  animation-duration: 1s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  opacity: 1;
+
+
+}
+
+@keyframes star1 {
+  0% {width: 400px; height: 200px; opacity: 1;
+
+  }
+  100% {width: 200px; height: 400px; opacity: 0;
+  }
+}
+
+.abomenav {
+  font-family: "Bebas Neue";
+  position: fixed;
+  top: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px 0px;
+  background: #ff3da8;
+  z-index: 10000;
+
+}
+
+
+
+.nav {
+  font-family: "Bebas Neue";
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px;
+  background: #ff3da8;
+  z-index: 100000;
+  margin: 0%;
+
+
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  color:#ffd5ec;
+}
+
+a:hover {
+  font-family:"Pacifico";
+}
+
+a:hover {
+  color: #ffd5ec;
+}
+
+
+
+
+h1 {
+    font-family: "Bebas Neue";
+    color: RGB(255, 103, 147);
+    text-align: center;
+    padding: 10px;
+    background: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    border-radius: 20px;
+
+    
+}
+
+.stuff {
+  height: 700px;
+}
+
+h2 {
+    font-family: "Pacifico";
+    color: RGB(255, 103, 147);
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    font-size: 125px;
+    z-index: -1;
+
+    background-image: linear-gradient(#ff008c, rgb(255, 38, 165));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 2s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-60deg);
+  
+  }
+    
+  }
+
+  #uwu {
+    width: 80%;
+    height: 150%;
+    position: absolute;
+    left: 380px;
+    top: 300px;
+    transition: .1s;
+    animation-name: uwu1;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    z-index: -1;
+
+  }
+
+  @keyframes uwu1 {
+
+   0% {top: 200px; opacity: 1;
+
+  }
+  100% {bottom: 0px; opacity: 0;
+  }
+}
+
+
+#slyanimegirluwu {
+  position: absolute;
+  top: -100px;
+  left: -120px;
+  height: 600%;
+  width: 550%;
+  opacity: 1;
+  transition: .2s;
+  z-index: -10;
+
+}
+
+#slyanimegirluwu:hover {
+  opacity: 1;
+}
+
+#mushroomgif {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  max-width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: .2s;
+  z-index: 100;
+}
+
+#mushroomgif:hover {
+  opacity: 1;
+
+}
+
+#uwukawai {
+  position: absolute;
+  top: 300px;
+  left: 900px;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 10;
+}
+
+#uwukawai:hover {
+  opacity: 1
+}
+
+#uwugif2 {
+  position: absolute;
+  top: 10px;
+  left: 1050px;
+  width: 100%;
+  height: 200%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 10;
+
+}
+
+#uwugif2:hover {
+  opacity: 1;
+}
+
+#kitttenuwuteehee {
+  position: absolute;
+  top: 300px;
+  left: 1200px;
+  width: 100%;
+  height: 200%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 10;
+
+}
+
+#kitttenuwuteehee:hover {
+ opacity: 1;
+
+}
+
+#egozuwu {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 9;
+
+}
+
+#egozuwu:hover {
+  opacity: 1;
+}
+
+#uwugif4 {
+  position: absolute;
+  top: 60px;
+  left: 230px;
+  width: 200%;
+  height: 100%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 0;
+
+}
+
+#uwugif4:hover {
+  opacity: 1;
+}
+
+
+#uwushycat {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  width: 200%;
+  height: 300%;
+  opacity: 0;
+  transition: .2s;
+  z-index: 100;
+}
+
+#uwushycat:hover {
+  opacity: 1;
+}
+
+
+#whatuwuheader {
+  font-family: "pacifico";
+  position: absolute;
+  left: 220px;
+  top: 900px;
+  font-size: 100px;
+  color: rgb(253, 203, 255);
+  padding: 30px;
+  background:rgb(255, 38, 165);
+  border-radius: 25px;
+
+}
+
+#square1 {
+  width: 100px;
+  height: 100px;
+
+}
+
+  .whatisuwu {
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    color:RGB(255, 103, 147);
+    line-height: 100px;
+    background-color: rgb(253, 203, 255);
+    padding: 100px;
+    margin: auto;
+    height: 5000px;
+  }
+
+  #kodamaboi {
+    z-index: 1;
+    position: relative;
+    top: 0px;
+
+  }
+
+  #dojacat {
+    z-index: 1;
+    position: absolute;
+    top: 5200px;
+  }
+
+  #cigaretteahegao {
+    z-index: 1;
+    position: absolute;
+    top: 5600px;
+
+
+  }
+
+  #catbreaduwu {
+    position: absolute;
+    left: 700px;
+    top: 5100px;
+    
+
+  }
+
+
+  #uwucatmeme {
+    position: absolute;
+    left: 800px;
+    top: 5400px;
+    width: 200%;
+    height: 440%;
+
+  }
+
+  #whatisuwutextuwu {
+    font-family: "pacifico";
+    font-size: 150px;
+    color:rgb(255, 38, 165);
+  }
+
+  #awu {
+    font-family: "pacifico";
+    font-size: 200px;
+    color:rgb(255, 38, 165);
+  }
+
+  #happiinsmug {
+    font-family: "pacifico";
+    font-size: 150px;
+    color:rgb(255, 38, 165);
+    line-height: 200px;
+  
+  background-image: linear-gradient(#ff008c, rgb(255, 0, 149));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 1s infinite alternate-reverse;
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-60deg);
+  
+  }
+    
+  }
+
+  #cloud1 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    z-index: 1;
+    animation-name: cloud1;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  
+  @keyframes cloud1 {
+    from {top: 1100px;
+    }
+    to {top: 1000px;
+  
+    }
+  }
+  
+  #cloud2 {
+    width: 100%;
+    height: 250%;
+    position: absolute;
+    top: 2000px;
+    left: 1150px;
+    animation-name: cloud2;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud2 {
+    from {top: 2000px;
+    }
+    to {top: 1900px;
+    }
+  }
+  
+  #cloud3 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 3000px;
+    left: 0px;
+    animation-name: cloud3;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud3 {
+    from {top: 3000px;
+  
+    }
+    to {top: 2900px; 
+  
+    }
+  }
+  
+  #cloud4 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 800px;
+    top: 4000px;
+    animation-name: cloud4;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud4 {
+    from {top: 4000px;
+  
+    }
+    to {top: 3900px;
+  
+    }
+  }
+  
+  
+  #cloud5 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 5000px;
+    animation-name: cloud5;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud5 {
+    from {top: 5000px;
+  
+    }
+    to {top: 4900px;
+  
+    }
+  }
+  
+  #cloud6 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 5300px;
+    z-index: 1;
+    animation-name: cloud6;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud6 {
+    from {top: 5300px;
+  
+    }
+    to {top: 5200px;
+  
+    }
+  }
+  
+  
+  #whereisuwuusedheader {
+    font-family: "pacifico";
+    position: absolute;
+    left: 210px;
+    top: 6100px;
+    font-size: 100px;
+    color: rgb(253, 203, 255);
+    padding: 30px;
+    background:rgb(193, 48, 125);
+    border-radius: 25px;
+  
+  }
+
+  .whereisuwuused {
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    color:rgb(253, 203, 255);
+    line-height: 100px;
+    background-color: rgb(255, 103, 147);
+    padding: 100px;
+    margin: auto;
+    height: 8500px;
+  }
+
+  #whereisuwutextuwu {
+    font-family: "pacifico";
+    font-size: 200px;
+    color:rgb(193, 48, 125);
+  }
+
+  #uwugif2where {
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    left: 1100px;
+    top: 7100px;
+    z-index: 1;
+
+  }
+
+  #uwugif4where {
+  position: absolute;
+  height: 300%;
+  width: 200%;
+  left: 800px;
+  top: 9900px;
+  z-index: 1;
+    
+  }
+
+
+
+  #longboiuwu {
+    position: absolute;
+    left: 900px;
+    top: 9600px;
+    scale: 1.0;
+    z-index: 100;
+    animation-duration: 2s;
+    transition: all 2s ease;
+    vertical-align: middle;
+  
+  }
+
+  #longboiuwu:hover {
+    transform:scale(1.5);
+  }
+
+  #subuwu {
+    z-index: 10000;
+    position: absolute;
+  
+  }
+
+ 
+
+  #cloud7 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 5900px;
+    left: 0px;
+    z-index: 1;
+    animation-name: cloud7;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  
+  @keyframes cloud7 {
+    from {top: 5900px;
+    }
+    to {top: 5800px;
+  
+    }
+  }
+  
+  #cloud8 {
+    width: 100%;
+    height: 250%;
+    position: absolute;
+    top: 6500px;
+    left: 1150px;
+    animation-name: cloud8;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud8 {
+    from {top: 6500px;
+    }
+    to {top: 6400px;
+    }
+  }
+  
+  #cloud9 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 7500px;
+    left: 0px;
+    animation-name: cloud9;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud9 {
+    from {top: 7500px;
+  
+    }
+    to {top: 7400px; 
+  
+    }
+  }
+  
+  #cloud10 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 8500px;
+    animation-name: cloud10;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud10 {
+    from {top: 8500px;
+  
+    }
+    to {top: 8400px;
+  
+    }
+  }
+  
+  
+  #cloud11 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 9500px;
+    animation-name: cloud11;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud11 {
+    from {top: 9500px;
+  
+    }
+    to {top: 9400px;
+  
+    }
+  }
+  
+  #cloud12 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 9600px;
+    z-index: 100;
+    animation-name: cloud12;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud12 {
+    from {top: 9600px;
+  
+    }
+    to {top: 9500px;
+  
+    }
+  }
+
+  #cloud13 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 10500px;
+    left: 0px;
+    animation-name: cloud13;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud13 {
+    from {top: 10500px;
+  
+    }
+    to {top: 10400px; 
+  
+    }
+  }
+  
+  #cloud14 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 12300px;
+    animation-name: cloud14;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud14 {
+    from {top: 12300px;
+  
+    }
+    to {top: 12200px;
+  
+    }
+  }
+  
+  
+  #cloud15 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 13100px;
+    animation-name: cloud15;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud15 {
+    from {top: 13100px;
+  
+    }
+    to {top: 13000px;
+  
+    }
+  }
+  
+  #cloud16 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 15000px;
+    z-index: 100;
+    animation-name: cloud16;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud16 {
+    from {top: 14100px;
+  
+    }
+    to {top: 14000px;
+  
+    }
+  }
+
+  #owouwugif {
+    position: absolute;
+    top: 13850px;
+    left: 1050px;
+    height: 100%;
+    width: 100%;
+
+  }
+  
+
+  #originofuwuheader {
+    font-family: "pacifico";
+    position: absolute;
+    left: 200px;
+    top: 14750px;
+    font-size: 100px;
+    color: rgb(234, 57, 148);
+    padding: 30px;
+    background:rgb(253, 203, 255);
+    border-radius: 25px;
+  
+  }
+
+
+
+
+  .originofuwu {
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    color:rgb(253, 203, 255);
+    line-height: 100px;
+    background-color: rgb(234, 57, 148);
+    padding: 100px;
+    margin: auto;
+    height: 4100px;
+  }
+
+  #originsofuwutextuwu {
+    font-family: "Pacifico";
+    font-size: 200px;
+    color:rgb(253, 203, 255);
+  
+  }
+
+  #cloud17 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 0px;
+    top: 15000px;
+    animation-name: cloud17;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    z-index: 10;
+  
+  }
+  
+  @keyframes cloud17 {
+    from {top: 15000px;
+  
+    }
+    to {top: 14900px;
+  
+    }
+  }
+  
+  
+  #cloud18 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 16000px;
+    animation-name: cloud18;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud18 {
+    from {top: 16000px;
+  
+    }
+    to {top: 15900px;
+  
+    }
+  }
+  
+  #cloud19 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 17000px;
+    z-index: 100;
+    animation-name: cloud19;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud19 {
+    from {top: 17000px;
+  
+    }
+    to {top: 16900px;
+  
+    }
+  }
+
+  #cloud20 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 17500px;
+    left: 0px;
+    animation-name: cloud20;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud20 {
+    from {top: 17500px;
+  
+    }
+    to {top: 17400px; 
+  
+    }
+  }
+  
+  #cloud21 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 18200px;
+    animation-name: cloud21;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes cloud21 {
+    from {top: 18200px;
+  
+    }
+    to {top: 18100px;
+  
+    }
+  }
+  
+  
+  
+#fanfictext {
+  font-family: "pacifico";
+  line-height: 20px;
+  background-image: linear-gradient(#ffd0ea, rgb(255, 113, 194));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 2s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-60deg);
+  
+  }
+    
+  
+}
+
+#problematicuwuheader {
+  font-family: "pacifico";
+  position: absolute;
+  left: 210px;
+  top: 19100px;
+  font-size: 100px;
+  color: rgb(193, 48, 125);
+  padding: 30px;
+  background:rgb(253, 203, 255);
+  border-radius: 25px;
+}
+
+  .problemuwu {
+    font-family: "Bebas Neue";
+    font-size: 100px;
+    color:rgb(253, 203, 255);
+    line-height: 100px;
+    background-color: rgb(193, 48, 125);
+    padding: 100px;
+    margin: auto;
+    height: 14800px;
+  }
+
+  #problematicuwutext {
+    font-family: "pacifico";
+    font-size: 200px;
+    color: rgb(234, 57, 148);
+  }
+
+
+#cloud22 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 19100px;
+    animation-name: cloud22;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: 1;
+  
+  }
+  
+  @keyframes cloud22 {
+    from {top: 19100px;
+  
+    }
+    to {top: 19000px;
+  
+    }
+  }
+  
+  #cloud23 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 21000px;
+    z-index: 100;
+    animation-name: cloud23;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud23 {
+    from {top: 21000px;
+  
+    }
+    to {top: 20900px;
+  
+    }
+  }
+
+  #cloud24 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 0px;
+    top: 22000px;
+    z-index: 100;
+    animation-name: cloud24;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud24 {
+    from {top: 22000px;
+  
+    }
+    to {top: 21900px;
+  
+    }
+  }
+
+  #cloud25 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 23500px;
+    z-index: 100;
+    animation-name: cloud25;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud25 {
+    from {top: 23500px;
+  
+    }
+    to {top: 23400px;
+  
+    }
+  }
+
+
+  #cloud26 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 0px;
+    top: 25000px;
+    z-index: 100;
+    animation-name: cloud26;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud26 {
+    from {top: 25000px;
+  
+    }
+    to {top: 24900px;
+  
+    }
+  }
+
+  #cloud27 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: 1500px;
+    top: 25000px;
+    z-index: 100;
+    animation-name: cloud27;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud27 {
+    from {top: 25000px;
+  
+    }
+    to {top: 24900px;
+  
+    }
+  }
+
+  #cloud28 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 0px;
+    top: 28000px;
+    z-index: 100;
+    animation-name: cloud28;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud28 {
+    from {top: 28000px;
+  
+    }
+    to {top: 27900px;
+  
+    }
+  }
+
+  #cloud29 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 30000px;
+    z-index: 100;
+    animation-name: cloud29;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud29 {
+    from {top: 30000px;
+  
+    }
+    to {top: 29900px;
+  
+    }
+  }
+
+  #cloud30 {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    left: -20px;
+    top: 32000px;
+    z-index: 100;
+    animation-name: cloud30;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud30 {
+    from {top: 32000px;
+  
+    }
+    to {top: 31900px;
+  
+    }
+  }
+
+  #cloud31 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 1000px;
+    top: 33000px;
+    z-index: 100;
+    animation-name: cloud31;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud31 {
+    from {top: 33000px;
+  
+    }
+    to {top: 32900px;
+  
+    }
+  }
+
+  #cloud32 {
+    width: 150%;
+    height: 300%;
+    position: absolute;
+    left: 0px;
+    top: 33800px;
+    z-index: 100;
+    animation-name: cloud32;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+
+  @keyframes cloud32 {
+    from {top: 33800px;
+  
+    }
+    to {top: 33700px;
+  
+    }
+  }
+
+  #aboutuwutext {
+    font-family: "Pacifico";
+    color:rgb(255, 38, 165);
+    background-image: linear-gradient(#ff008c, rgb(255, 0, 149));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 1s infinite alternate-reverse;
+  }
+  
+  @keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-60deg);
+    
+    
+    }
+
+  }
+
+  .aboutout {
+    font-family: "Bebas Neue";
+    font-size: 250px;
+    color:RGB(255, 103, 147);
+    line-height: 300px;
+    background-color: #ffd5ec;
+    padding: 100px;
+    margin: auto;
+    height: 1000px;
+    padding: 20px;
+  }
+  
